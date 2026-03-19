@@ -34,7 +34,7 @@ button.addEventListener('click', function(event) {
   var ws = input.value;
   console.log(ws);
   if (ws != "") {
-    window.location.href = `file:///C:/Users/felix/Desktop/informatikprojekt/informatikprojekt4/main.html?ws=${ws}`;
+    window.location.href = `${window.location.href}main.html?ws=${ws}`;
   }
 });
 
