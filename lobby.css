@@ -1,0 +1,84 @@
+#input {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  font-size: 6vmin;
+  text-align: center;
+  font-family: "Jersey 10", sans-serif;
+  padding: 2vmin;
+  margin: 8px 0;
+  border: 2px solid #444444;
+  border-radius: 2vmin;
+  box-sizing: border-box;
+  background-color:  #bbbbbb;
+}
+#button {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 40%;
+  font-size: 10vmin;
+  text-align: center;
+  font-family: "Jersey 10", sans-serif;
+  background-color: gray;
+  border: 5px solid #666666;
+  box-sizing: border-box;
+  border-radius: 2vmin;
+}
+#settings {
+	position: absolute;
+	top: 3vmin;
+	right: 3vmin;
+	transition: all 0.1s linear;
+}
+#menu {
+	position: absolute;
+	width: 120vmin;
+	height: 80vmin;
+	left: calc(50vw - 60vmin);
+	top: calc(50vh - 40vmin);
+	visibility: hidden;
+	transition: all 0.1s linear;
+}
+#menuBG {
+	width: inherit;
+	height: inherit;
+	background-color: #909093;
+	opacity: 95%;
+	border: 1vmin solid black;
+	border-radius: 2vmin;
+	transition: all 0.1s linear;
+}
+#theme {
+	position: absolute;
+	top: 5vmin;
+	right: 4vmin;
+	opacity: 100%;
+	width: 12vmin;
+	transition: all 0.1s linear;
+}
+#slider {
+	position: absolute;
+	top: 10vmin;
+	left: 10vmin;
+	width: 80vmin;
+	height: 1vmin;
+	border-radius: 0.5vmin;
+	background-color: rgb(100, 100, 100);
+  transition: all 0.1s linear;
+}
+#sliderIcon {
+	position: absolute;
+	top: -4.5vmin;
+	left: -5vmin;
+	width: 10vmin;
+	transition: all 0.05s linear;
+}
+.no-select {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Informatik-Projekt</title>
+		<link rel="stylesheet" href="src/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="game">
+			<canvas id="arena" width="1350" height="900"></canvas>
+
+			<h1 id="text" class="no-select">Informatik-Projekt</h1>
+			<div id="player"></div>
+			<div id="rocket"></div>
+			<div id="arrow"> &#8593;</div>
+			<div id="barG"></div>
+			<div id="barB"></div>
+			<div id="healthBackground">
+				<div id="health"></div>
+			</div>
+			<div id="test2"></div>
+			<div id="test"></div>
+		</div>
+		<img src="settings.png" draggable="false" class="no-shoot no-select" id="settings">
+		<div class="no-shoot" id="menu">
+			<div class="no-shoot" id="menuBG"></div>
+			<div id="settingsMenu">
+				<img src="mond.png" draggable="false" class="no-shoot no-select" id="theme">
+				<div class="no-shoot" id="slider">
+					<img src="hellesonne.png" draggable="false" class="no-shoot no-select" id="sliderIcon">
+				</div>
+			</div>
+		</div>
+		<script src="src/game.js"></script>
+	</body>
+</html>

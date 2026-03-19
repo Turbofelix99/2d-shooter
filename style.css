@@ -1,0 +1,171 @@
+#game {
+	width: 135vmin;
+	height: 90vmin;
+	left: calc(50vw - 67.5vmin);
+	top: calc(50vh - 45vmin);
+	position: absolute;
+	background-color: lightgray;
+	transition: all 0.1s linear;
+}
+#player {
+	position: absolute;
+	width: 9vmin;
+	height: 9vmin;
+	top: 3vmin;
+	left: 3vmin;
+	background-color: red;
+}
+#arrow {
+	background-color: gray;
+	position: absolute;
+	font-size: 9vmin;
+	top: 23px;
+	left: 55px;
+}
+#rocket {
+	width: 4vmin;
+	height: 14vmin;
+	top: 0px;
+	left: 0px;
+	background-color: green;
+	position: absolute;
+	transform-origin: 2vmin 7.5vmin;
+}
+#healthBackground {
+	position: absolute;
+	background-color: black;
+	top: calc(100% + 0.5vmin);
+	width: 31vmin;
+	height: 4vmin;
+}
+#health {
+	background-color: rgb(179, 20, 20);
+	position: absolute;
+	top: 0.5vmin;
+	left: 0.5vmin;
+	width: 30vmin;
+	height: 3vmin;
+}
+#text {
+	color: black;
+	position: absolute;
+	left: 20px;
+}
+#arena {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+}
+#test {
+	width: 0.9vmin;
+	height: 0.9vmin;
+	background-color: blue;
+	position: absolute;
+}
+#test2 {
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+	position: absolute;
+}
+#corner0 {
+	width: 0.9vmin;
+	height: 0.9vmin;
+	background-color: red;
+	position: absolute;
+}
+#corner1 {
+	width: 0.9vmin;
+	height: 0.9vmin;
+	background-color: blue;
+	position: absolute;
+}
+#corner2 {
+	width: 0.9vmin;
+	height: 0.9vmin;
+	background-color: red;
+	position: absolute;
+}
+#corner3 {
+	width: 0.9vmin;
+	height: 0.9vmin;
+	background-color: blue;
+	position: absolute;
+}
+#text {
+	font-family: "Jersey 10", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5vmin;
+}
+#barG {
+	width: 67.5vmin;
+	height: 3vmin;
+	top: -3.5vmin;
+	position: absolute;
+	background-color: green;
+}
+#barB {
+	width: 67.5vmin;
+	height: 3vmin;
+	top: -3.5vmin;
+	left: 50%;
+	position: absolute;
+	background-color: blue;
+}
+#settings {
+	position: absolute;
+	top: 3vmin;
+	right: 3vmin;
+	transition: all 0.1s linear;
+}
+#menu {
+	position: absolute;
+	width: 120vmin;
+	height: 80vmin;
+	left: calc(50vw - 60vmin);
+	top: calc(50vh - 40vmin);
+	visibility: hidden;
+	transition: all 0.1s linear;
+}
+#menuBG {
+	width: inherit;
+	height: inherit;
+	background-color: #909093;
+	opacity: 95%;
+	border: 1vmin solid black;
+	border-radius: 2vmin;
+	transition: all 0.1s linear;
+}
+#theme {
+	position: absolute;
+	top: 5vmin;
+	right: 4vmin;
+	opacity: 100%;
+	width: 12vmin;
+	transition: all 0.1s linear;
+}
+#slider {
+	position: absolute;
+	top: 10vmin;
+	left: 10vmin;
+	width: 80vmin;
+	height: 1vmin;
+	border-radius: 0.5vmin;
+	background-color: rgb(100, 100, 100);
+	transition: all 0.1s linear;
+}
+#sliderIcon {
+	position: absolute;
+	top: -4.5vmin;
+	left: -5vmin;
+	width: 10vmin;
+	transition: all 0.05s linear;
+}
+.no-select {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
