@@ -12,7 +12,7 @@ var ws = input.innerHTML;
 var menu = false;
 
 if (urlParams.get('t') == "d") {
-  themeVal = "dark";
+  themeVal = "d";
   document.body.style.backgroundColor = "#303033";
   menuBG.style.backgroundColor = "#303035";
   theme.style.filter = "invert(0.6)";
@@ -21,7 +21,7 @@ if (urlParams.get('t') == "d") {
   sliderIcon.style.filter = "invert(0.6)";
 }
 else {
-  themeVal = "light";
+  themeVal = "l";
   document.body.style.backgroundColor = "#FFFFFF";
   menuBG.style.backgroundColor = "#909093";
   theme.style.filter = "invert(0)";
@@ -34,7 +34,7 @@ button.addEventListener('click', function(event) {
   var ws = input.value;
   console.log(ws);
   if (ws != "") {
-    window.location.href = `${window.location.href}main.html?ws=${ws}`;
+    window.location.href = `${window.location.href}main.html?ws=${ws}&t=${themeVal}`;
   }
 });
 
@@ -53,8 +53,8 @@ settings.addEventListener('click', function(event) {
 theme.addEventListener('click', function(event) {
   console.log("click");
   var newParams;
-  if (themeVal != "dark") {
-    console.log("dark");
+  if (themeVal != "d") {
+    console.log("d");
     themeVal = "dark";
     document.body.style.backgroundColor = "#303033";
     menuBG.style.backgroundColor = "#303035";
@@ -65,8 +65,8 @@ theme.addEventListener('click', function(event) {
     newParams = "t=d"
   }
   else {
-    console.log("light");
-    themeVal = "light";
+    console.log("l");
+    themeVal = "l";
     document.body.style.backgroundColor = "#FFFFFF";
     menuBG.style.backgroundColor = "#909093";
     theme.style.filter = "invert(0)";
