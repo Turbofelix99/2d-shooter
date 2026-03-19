@@ -747,3 +747,4 @@ Game.run = function() {
 };
 
 Game.interval = setInterval(Game.run, 1000 / Game.fps);
+
